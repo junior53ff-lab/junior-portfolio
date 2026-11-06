@@ -1,15 +1,15 @@
 # JUNIOR PORTFOLIO
 
-Portefólio digital moderno e minimalista para apresentar projetos, competências e identidade visual em Multimédia.
+Portefólio digital premium e cinematográfico para apresentar projetos, competências e identidade visual em Multimédia.
 
 ## Visão geral
 
 Este site foi desenvolvido com HTML5, CSS3 e JavaScript puro, com foco em:
-- apresentação pessoal
-- projetos criativos
-- design responsivo
-- animações discretas
-- modo escuro
+- apresentação pessoal forte e moderna
+- projetos criativos em layout editorial
+- design responsivo para mobile, tablet e desktop
+- animações discretas e elegantes
+- modo escuro premium
 - acessibilidade básica
 - formulário de contacto com validação
 
@@ -51,23 +51,23 @@ http://localhost:8000
 
 ## Como publicar no GitHub Pages
 
-1. Cria um repositório no GitHub com o nome: `junior-portfolio`
+1. Cria um repositório no GitHub com o nome `junior-portfolio`.
 2. Envia os ficheiros para o repositório.
-3. No GitHub, vai a: `Settings` → `Pages`
-4. Em "Build and deployment", seleciona:
+3. No GitHub, entra em `Settings` → `Pages`.
+4. Em "Build and deployment" seleciona:
    - Source: Deploy from a branch
    - Branch: main
    - Folder: /root
 5. Guarda e aguarda a publicação.
-6. O link será algo como: `https://seu-username.github.io/junior-portfolio/`
+6. O link final será algo como: `https://seu-username.github.io/junior-portfolio/`
 
 ## Personalização
 
 ### Texto
 Edita diretamente os conteúdos em `index.html`:
 - apresentação inicial
-- secção "Sobre mim"
-- listas de competências
+- secção sobre mim
+- competências
 - projetos
 - contacto
 
@@ -76,21 +76,21 @@ Altera as variáveis globais em `style.css`:
 
 ```css
 :root {
-  --bg: #0a0d12;
-  --text: #f3f7fb;
-  --accent: #4da3ff;
+  --bg: #070b12;
+  --text: #edf5ff;
+  --accent: #59a9ff;
 }
 ```
 
 ### Imagens
-Substitui os placeholders em `assets/images/` pelos teus próprios trabalhos quando estiverem prontos.
+Substitui os placeholders em `assets/images/` pelos teus próprios conteúdos quando estiverem disponíveis.
 
 ## Observações
 
-- As imagens presentes são placeholders para manter o projeto funcional e visualmente organizado.
-- O código foi pensado para ser simples de editar e manter.
-- A interface é responsiva para desktops, tablets e telemóveis.
+- As imagens presentes são placeholders para manter um visual profissional e funcional.
+- O código foi concebido para ser fácil de editar e manter.
+- A interface é responsiva em desktop, tablet e telemóvel.
 
 ## Licença
 
-Este projeto foi criado para uso pessoal e apresentação profissional. Pode ser adaptado conforme necessário.
+Este projeto foi criado para uso pessoal e apresentação profissional.

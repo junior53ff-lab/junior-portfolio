@@ -1,19 +1,20 @@
-<svg width="900" height="740" viewBox="0 0 900 740" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="900" height="740" rx="32" fill="#0E1622"/>
-  <rect x="80" y="110" width="740" height="520" rx="28" fill="url(#paint0_linear)"/>
-  <circle cx="220" cy="230" r="95" fill="#4DA3FF" fill-opacity="0.78"/>
-  <circle cx="650" cy="300" r="120" fill="#8AB9FF" fill-opacity="0.2"/>
-  <rect x="180" y="380" width="330" height="110" rx="22" fill="#0B1017"/>
-  <rect x="240" y="430" width="210" height="18" rx="9" fill="#E8F4FF"/>
-  <rect x="240" y="462" width="150" height="12" rx="6" fill="#7CA9D9"/>
-  <rect x="545" y="220" width="170" height="170" rx="28" fill="#101B2A" stroke="#4DA3FF" stroke-opacity="0.8"/>
-  <path d="M585 320L620 270L665 335L710 255" stroke="#4DA3FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="450" y="94" text-anchor="middle" fill="#EAF5FF" font-family="Arial, sans-serif" font-size="30" letter-spacing="6">JUNIOR PORTFOLIO</text>
+<svg width="900" height="760" viewBox="0 0 900 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="760" rx="32" fill="#0B1017"/>
+  <rect x="60" y="90" width="780" height="580" rx="28" fill="url(#paint0_linear)"/>
+  <circle cx="220" cy="230" r="110" fill="#59A9FF" fill-opacity="0.72"/>
+  <circle cx="650" cy="310" r="150" fill="#A9C9FF" fill-opacity="0.12"/>
+  <path d="M135 540C210 455 265 430 330 450C390 470 435 530 505 540C585 550 640 475 720 440" stroke="#8CC8FF" stroke-width="8" stroke-linecap="round"/>
+  <rect x="180" y="370" width="290" height="120" rx="22" fill="#0D1821" fill-opacity="0.9"/>
+  <rect x="215" y="410" width="170" height="18" rx="9" fill="#EAF6FF"/>
+  <rect x="215" y="440" width="120" height="12" rx="6" fill="#98C8FF"/>
+  <rect x="545" y="215" width="170" height="170" rx="24" fill="#0F1A25" stroke="#59A9FF" stroke-opacity="0.8"/>
+  <path d="M577 335L616 290L662 348L712 255" stroke="#59A9FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450" y="98" text-anchor="middle" fill="#ECF6FF" font-family="Arial, sans-serif" font-size="30" letter-spacing="7">JUNIOR PORTFOLIO</text>
   <defs>
-    <linearGradient id="paint0_linear" x1="120" y1="120" x2="770" y2="640" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#101A29"/>
-      <stop offset="0.5" stop-color="#16283F"/>
-      <stop offset="1" stop-color="#243E63"/>
+    <linearGradient id="paint0_linear" x1="88" y1="98" x2="796" y2="652" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111B2A"/>
+      <stop offset="0.5" stop-color="#162C43"/>
+      <stop offset="1" stop-color="#264A73"/>
     </linearGradient>
   </defs>
 </svg>

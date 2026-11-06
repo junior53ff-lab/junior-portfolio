@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="JUNIOR PORTFOLIO — portefólio digital de Junior, estudante de Multimédia e criador digital."
+      content="JUNIOR PORTFOLIO — portefólio digital premium de Junior, estudante de Multimédia e criador digital."
     />
     <title>JUNIOR PORTFOLIO</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="noise"></div>
+
     <header class="site-header">
       <nav class="navbar container" aria-label="Menu principal">
         <a href="#top" class="brand" aria-label="Página inicial">
@@ -24,7 +26,7 @@
           <span>JUNIOR</span>
         </a>
 
-        <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" type="button">
           <span></span>
           <span></span>
           <span></span>
@@ -48,12 +50,11 @@
           <div class="hero-copy reveal">
             <p class="eyebrow">Multimédia • Design • Tecnologia</p>
             <h1>Olá, sou Junior.</h1>
-            <h2>Estudante de Multimédia e criador digital.</h2>
+            <p class="subtitle">Estudante de Multimédia e criador digital.</p>
             <p class="intro">
-              Sou um estudante apaixonado por design gráfico, tecnologia,
-              programação, comunicação visual, animação e edição de vídeo.
-              Exploro ideias criativas que unem estética, funcionalidade e
-              narrativa visual.
+              Exploro a interseção entre design, tecnologia, comunicação visual,
+              programação e narrativa audiovisual para criar experiências digitais
+              com identidade, impacto e emoção.
             </p>
 
             <div class="cta-group">
@@ -79,68 +80,85 @@
 
           <div class="hero-visual reveal">
             <div class="hero-card">
+              <div class="hero-card-header">
+                <span class="status-dot"></span>
+                <span>Portfolio</span>
+              </div>
               <img
                 src="assets/images/hero-placeholder.svg"
                 alt="Placeholder visual para apresentação pessoal"
               />
+              <div class="hero-card-meta">
+                <div>
+                  <small>Disponível para</small>
+                  <strong>Projetos criativos</strong>
+                </div>
+                <span class="meta-badge">2026</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="about" class="section">
+      <section id="about" class="section about-section">
         <div class="container">
           <div class="section-heading reveal">
             <p class="eyebrow">Sobre mim</p>
-            <h3>Crio experiências digitais com propósito visual.</h3>
+            <h3>Crio experiências digitais com presença visual e intenção.</h3>
           </div>
 
           <div class="about-grid">
             <article class="about-card reveal">
+              <span class="card-index">01</span>
               <h4>Design gráfico</h4>
               <p>
-                Transformo ideias em identidades visuais fortes, funcionais e
-                memoráveis, focando-me na clareza, emoção e comunicação.
+                Transformo ideias em identidades visuais autênticas, com equilíbrio
+                entre estética, clareza e memória visual.
               </p>
             </article>
 
             <article class="about-card reveal">
+              <span class="card-index">02</span>
               <h4>Tecnologia</h4>
               <p>
-                Exploro ferramentas digitais e desenvolvimento web para dar vida a
-                conceitos criativos em experiências interativas.
+                Exploro ferramentas digitais e desenvolvimento web para transformar
+                conceitos criativos em interfaces funcionais.
               </p>
             </article>
 
             <article class="about-card reveal">
+              <span class="card-index">03</span>
               <h4>Comunicação visual</h4>
               <p>
-                Acredito que a narrativa visual é essencial para conectar pessoas,
-                marcas e conteúdos de forma autêntica.
+                Acredito que a narrativa visual é a forma mais direta de criar
+                conexão, emoção e significado em qualquer projeto.
               </p>
             </article>
 
             <article class="about-card reveal">
+              <span class="card-index">04</span>
               <h4>Programação</h4>
               <p>
-                Desenvolvo soluções simples e eficazes, combinando estrutura,
-                usabilidade e identidade visual em interfaces digitais.
+                Desenvolvo soluções simples e impactantes, combinando estrutura,
+                usabilidade e identidade visual em experiências digitais.
               </p>
             </article>
 
             <article class="about-card reveal">
+              <span class="card-index">05</span>
               <h4>Animação</h4>
               <p>
-                Crio movimento, ritmo e personalidade nas peças visuais para
-                reforçar emoção, clareza e impacto visual.
+                Através do movimento, criamos ritmo, personalidade e energia para
+                reforçar a narrativa visual e o impacto emocional.
               </p>
             </article>
 
             <article class="about-card reveal">
+              <span class="card-index">06</span>
               <h4>Edição de vídeo</h4>
               <p>
-                Produzo montagens e conteúdos audiovisuais que ajudam a contar
-                histórias com energia, direção e intenção criativa.
+                Produzo montagens e conteúdos audiovisuais com atenção ao detalhe,
+                direção visual e mensagem clara.
               </p>
             </article>
           </div>
@@ -151,7 +169,7 @@
         <div class="container">
           <div class="section-heading reveal">
             <p class="eyebrow">Competências</p>
-            <h3>As minhas ferramentas e áreas de atuação.</h3>
+            <h3>Ferramentas e áreas em que construo ideias visuais.</h3>
           </div>
 
           <div class="skills-grid">
@@ -167,21 +185,22 @@
         </div>
       </section>
 
-      <section id="projects" class="section">
+      <section id="projects" class="section projects-section">
         <div class="container">
           <div class="section-heading reveal">
             <p class="eyebrow">Projetos</p>
-            <h3>Trabalhos criativos e conceptuais.</h3>
+            <h3>Trabalhos criativos com linguagem visual própria.</h3>
           </div>
 
           <div class="projects-grid">
-            <article class="project-card reveal">
+            <article class="project-card project-feature reveal">
               <div class="project-image project-1"><span>Placeholder</span></div>
               <div class="project-content">
+                <p class="project-label">Mobile product</p>
                 <h4>PULSO</h4>
                 <p>
-                  Aplicação mobile desenvolvida no Figma para explorar a experiência
-                  de utilizador em plataformas de saúde e bem-estar.
+                  Conceito de aplicação mobile para saúde e bem-estar, com foco em
+                  experiência clara, motivação visual e acessibilidade.
                 </p>
                 <div class="project-tags">
                   <span>Figma</span>
@@ -194,10 +213,11 @@
             <article class="project-card reveal">
               <div class="project-image project-2"><span>Placeholder</span></div>
               <div class="project-content">
+                <p class="project-label">Website</p>
                 <h4>Dream Travel</h4>
                 <p>
-                  Website de viagens desenvolvido com HTML e CSS, pensado para
-                  apresentar destinos e experiências inspiradoras.
+                  Website editorial de viagens com atmosfera inspiradora e navegação
+                  fluida para apresentar experiências de destinos.
                 </p>
                 <div class="project-tags">
                   <span>HTML</span>
@@ -210,10 +230,11 @@
             <article class="project-card reveal">
               <div class="project-image project-3"><span>Placeholder</span></div>
               <div class="project-content">
+                <p class="project-label">Brand concept</p>
                 <h4>ORBI</h4>
                 <p>
-                  Conceito de casaco inteligente com identidade visual de marca
-                  contemporânea e tecnológica.
+                  Casaco inteligente com identidade visual tecnológica e moderna,
+                  pensado para conectar funcionalidade e estilo.
                 </p>
                 <div class="project-tags">
                   <span>Identidade visual</span>
@@ -226,10 +247,11 @@
             <article class="project-card reveal">
               <div class="project-image project-4"><span>Placeholder</span></div>
               <div class="project-content">
+                <p class="project-label">Character animation</p>
                 <h4>Peixe de Quatro-Olhos</h4>
                 <p>
-                  Projeto de personagem e animação 2D com foco na expressividade
-                  visual e criação de personalidade.
+                  Personagem com narrativa visual forte, com foco em expressão,
+                  humor e identidade narrativa para animação 2D.
                 </p>
                 <div class="project-tags">
                   <span>Animação</span>
@@ -242,10 +264,11 @@
             <article class="project-card reveal">
               <div class="project-image project-5"><span>Placeholder</span></div>
               <div class="project-content">
+                <p class="project-label">Visual study</p>
                 <h4>Moda Barroca</h4>
                 <p>
-                  Projeto visual inspirado na moda histórica, centrado em referências
-                  barrocas, textura e composição artística.
+                  Projeto visual inspirador na moda histórica, com referências
+                  barrocas, riqueza de textura e composição teatral.
                 </p>
                 <div class="project-tags">
                   <span>Design visual</span>
@@ -258,10 +281,11 @@
             <article class="project-card reveal">
               <div class="project-image project-6"><span>Placeholder</span></div>
               <div class="project-content">
+                <p class="project-label">Game concept</p>
                 <h4>Arnolfini Cipher</h4>
                 <p>
-                  Conceito de jogo de investigação visual com elementos atmosféricos
-                  e mecânicas de puzzle exploratórias.
+                  Conceito de jogo de investigação visual que combina narrativa,
+                  mistério e linguagem gráfica atmosférica.
                 </p>
                 <div class="project-tags">
                   <span>Game concept</span>
@@ -281,7 +305,7 @@
             <h3>Vamos criar algo visualmente marcante.</h3>
             <p>
               Se quiseres colaborar, discutir ideias ou partilhar oportunidades,
-              deixa-me uma mensagem.
+              deixa-me uma mensagem e vamos desenvolver algo único.
             </p>
 
             <div class="social-links">
@@ -315,9 +339,7 @@
               <small class="error-message" aria-live="polite"></small>
             </div>
 
-            <button type="submit" class="btn btn-primary submit-btn">
-              Enviar mensagem
-            </button>
+            <button type="submit" class="btn btn-primary submit-btn">Enviar mensagem</button>
           </form>
         </div>
       </section>

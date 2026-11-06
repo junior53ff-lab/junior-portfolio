@@ -52,9 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
     },
-    {
-      threshold: 0.12,
-    }
+    { threshold: 0.12 }
   );
 
   revealItems.forEach((item) => observer.observe(item));
@@ -94,8 +92,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let isValid = true;
 
     fields.forEach((field) => {
-      const fieldIsValid = validateField(field);
-      if (!fieldIsValid) isValid = false;
+      const valid = validateField(field);
+      if (!valid) isValid = false;
     });
 
     if (isValid) {
